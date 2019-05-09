@@ -11,6 +11,7 @@ import (
 	util "github.com/arussellsaw/unicorn-go/util"
 )
 
+// display scrolling perlin noise map
 func main() {
 	noise := perlin.NewPerlinRandSource(2, 2, 3, rand.NewSource(time.Now().UnixNano()))
 
